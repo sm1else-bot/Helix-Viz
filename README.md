@@ -1,6 +1,10 @@
 # HELIX / The Sorting Works
 
-A standalone Three.js + TypeScript + Vite screening-floor experiment. This directory is independent of the Helix website. No changes were made to existing Helix projects, and nothing was published.
+A standalone Three.js + TypeScript + Vite screening-floor experiment. This directory is independent of the Helix website. No changes were made to existing Helix projects.
+
+Live site: https://projects.jessenth.com/Helix-Viz/
+
+GitHub Actions runs tests, builds, and deploys to GitHub Pages on every push to main.
 
 ## Run
 
@@ -71,3 +75,4 @@ python scripts/create_fixture.py "<checkout>/project helix/stage3_engine/vendor"
 - `public/fixture.json`: full annotated engine fixture.
 
 Mechanical geometry and choreography are illustrative. They are not a physics solver. Soft shadows, capped pixel density, and shared geometry keep rendering bounded; ambient occlusion is not enabled. Google Fonts are an optional typography enhancement, with system fallbacks. This prototype replays results; it does not run Python in the browser or validate the truth of imported evidence.
+
