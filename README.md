@@ -76,3 +76,8 @@ python scripts/create_fixture.py "<checkout>/project helix/stage3_engine/vendor"
 
 Mechanical geometry and choreography are illustrative. They are not a physics solver. Soft shadows, capped pixel density, and shared geometry keep rendering bounded; ambient occlusion is not enabled. Google Fonts are an optional typography enhancement, with system fallbacks. This prototype replays results; it does not run Python in the browser or validate the truth of imported evidence.
 
+
+## Embedded player
+
+The portfolio uses `embed.html`: the default fixture plays at 8× in a continuous loop with orbit and zoom. It shares the renderer and fixed clock, omits inspection and controls, pauses offscreen, and releases resources when unloaded. The full interface remains at the main URL.
+
