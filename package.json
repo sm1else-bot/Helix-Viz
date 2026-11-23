@@ -1,0 +1,1 @@
+{"name":"helix-sorting-works","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite --host 127.0.0.1","build":"tsc && vite build","test":"tsx --test src/simulation.test.ts"},"dependencies":{"three":"^0.170.0"},"devDependencies":{"@types/three":"^0.170.0","typescript":"^5.7.2","vite":"^6.0.5","tsx":"^4.19.2"}}
